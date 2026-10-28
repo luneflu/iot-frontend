@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@lottiefiles/dotlottie-svelte':
+        specifier: ^0.10.16
+        version: 0.10.16(svelte@5.57.3(@typescript-eslint/types@8.72.1))
       '@lucide/svelte':
         specifier: ^1.61.0
         version: 1.61.0(svelte@5.57.3(@typescript-eslint/types@8.72.1))
@@ -17,6 +20,9 @@ importers:
       mqtt:
         specifier: ^5.16.1
         version: 5.16.1
+      svelte-sonner:
+        specifier: ^1.2.1
+        version: 1.2.1(svelte@5.57.3(@typescript-eslint/types@8.72.1))
       tailwind-merge:
         specifier: ^3.7.0
         version: 3.7.0
@@ -54,6 +60,9 @@ importers:
       globals:
         specifier: ^17.6.0
         version: 17.13.0
+      mode-watcher:
+        specifier: ^1.1.0
+        version: 1.1.0(svelte@5.57.3(@typescript-eslint/types@8.72.1))
       prettier:
         specifier: ^3.8.3
         version: 3.9.10
@@ -177,6 +186,16 @@ packages:
 
   '@keyv/serialize@1.1.1':
     resolution: {integrity: sha512-dXn3FZhPv0US+7dtJsIi2R+c7qWYiReoEh5zUntWCf4oSpMNib8FDhSoed6m3QyZdx5hK7iLFkYk3rNxwt8vTA==}
+
+  '@lottiefiles/dotlottie-svelte@0.10.16':
+    resolution: {integrity: sha512-y2d9spf0aLe+BNfMLb/FeTI1ifvfpw3tnMI46gUMw0CP+9gP+omr/4UqMoS4c//3jiICAfGWBLqZswjQTirCaA==}
+    engines: {node: '>=18.17.0', npm: '>=9.5.0'}
+    peerDependencies:
+      svelte: ^5.0.0
+
+  '@lottiefiles/dotlottie-web@0.81.0':
+    resolution: {integrity: sha512-BmX/+0eaK2unVexuB0VZLvBsax2BS8fLwwIdUqF4AO9C7tFw97eTi90C//20QVK4q08SDhnnszysCGX0Qt7XPA==}
+    engines: {node: '>=18.17.0', npm: '>=9.5.0'}
 
   '@lucide/svelte@1.61.0':
     resolution: {integrity: sha512-Vwj4ADoKgVogLFpEbXv2PS2hh2fj+aAqPuiNydI88Zkyb1l7veL4fXgRrOX3tgpESHhIGneNkSSYhHupvCBshg==}
@@ -788,6 +807,9 @@ packages:
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
 
+  inline-style-parser@0.2.7:
+    resolution: {integrity: sha512-Nb2ctOyNR8DqQoR0OwRG95uNWIC0C1lCgf5Naz5H6Ji72KZ8OcFZLz2P5sNgwlyoJ8Yif11oMuYs5pBQa86csA==}
+
   ip-address@10.7.5:
     resolution: {integrity: sha512-t2v0rkILYv9WXmSL7TpAaU3HXgaFYOPUcH3QHgwQ++gpJuH3bqyMy4Fvt/DJCTKwzH3Cf+bAp5W/mFL39KPLzA==}
     engines: {node: '>= 12'}
@@ -1001,6 +1023,11 @@ packages:
   minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
 
+  mode-watcher@1.1.0:
+    resolution: {integrity: sha512-mUT9RRGPDYenk59qJauN1rhsIMKBmWA3xMF+uRwE8MW/tjhaDSCCARqkSuDTq8vr4/2KcAxIGVjACxTjdk5C3g==}
+    peerDependencies:
+      svelte: ^5.27.0
+
   mqtt-packet@9.0.2:
     resolution: {integrity: sha512-MvIY0B8/qjq7bKxdN1eD+nrljoeaai+qjLJgfRn3TiMuz0pamsIWY2bFODPZMSNmabsLANXsLl4EMoWvlaTZWA==}
 
@@ -1142,6 +1169,21 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
+  runed@0.23.4:
+    resolution: {integrity: sha512-9q8oUiBYeXIDLWNK5DfCWlkL0EW3oGbk845VdKlPeia28l751VpfesaB/+7pI6rnbx1I6rqoZ2fZxptOJLxILA==}
+    peerDependencies:
+      svelte: ^5.7.0
+
+  runed@0.25.0:
+    resolution: {integrity: sha512-7+ma4AG9FT2sWQEA0Egf6mb7PBT2vHyuHail1ie8ropfSjvZGtEAx8YTmUjv/APCsdRRxEVvArNjALk9zFSOrg==}
+    peerDependencies:
+      svelte: ^5.7.0
+
+  runed@0.28.0:
+    resolution: {integrity: sha512-k2xx7RuO9hWcdd9f+8JoBeqWtYrm5CALfgpkg2YDB80ds/QE4w0qqu34A7fqiAwiBBSBQOid7TLxwxVC27ymWQ==}
+    peerDependencies:
+      svelte: ^5.7.0
+
   sade@1.8.1:
     resolution: {integrity: sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==}
     engines: {node: '>=6'}
@@ -1185,6 +1227,9 @@ packages:
   string_decoder@1.3.0:
     resolution: {integrity: sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==}
 
+  style-to-object@1.0.14:
+    resolution: {integrity: sha512-LIN7rULI0jBscWQYaSswptyderlarFkjQ+t79nzty8tcIAceVomEVlLzH5VP4Cmsv6MtKhs7qaAiwlcp+Mgaxw==}
+
   svelte-check@4.7.7:
     resolution: {integrity: sha512-Ge2IMdeTpbJuzNFGRiiMg0RWgbScysKQu7xwcyFJ22+DU9F5nPX51+Q3gHmGqRxYQMx2knreVWt5oCtfe0vf2g==}
     engines: {node: '>= 18.0.0'}
@@ -1201,6 +1246,17 @@ packages:
     peerDependenciesMeta:
       svelte:
         optional: true
+
+  svelte-sonner@1.2.1:
+    resolution: {integrity: sha512-N00LOWb60fjKXULbpngku+7E9Krb16KpNq4/Eax5Vu7o1Dpbca55QpaLPsB+yp82JIEdFhfJuv5cVXLoe0ZtVA==}
+    peerDependencies:
+      svelte: ^5.0.0
+
+  svelte-toolbelt@0.7.1:
+    resolution: {integrity: sha512-HcBOcR17Vx9bjaOceUvxkY3nGmbBmCBBbuWLLEWO6jtmWH8f/QoWmbyUfQZrpDINH39en1b8mptfPQT9VKQ1xQ==}
+    engines: {node: '>=18', pnpm: '>=8.7.0'}
+    peerDependencies:
+      svelte: ^5.0.0
 
   svelte@5.57.3:
     resolution: {integrity: sha512-5mAftM3SoDV9X0zdF386F9p2pv8iKOwi/KfBS1XnBAkVCKFzVOLHUoa8iGWAt4buoicLmyWVRpuuD5wplXOQsg==}
@@ -1460,6 +1516,13 @@ snapshots:
       keyv: 5.6.0
 
   '@keyv/serialize@1.1.1': {}
+
+  '@lottiefiles/dotlottie-svelte@0.10.16(svelte@5.57.3(@typescript-eslint/types@8.72.1))':
+    dependencies:
+      '@lottiefiles/dotlottie-web': 0.81.0
+      svelte: 5.57.3(@typescript-eslint/types@8.72.1)
+
+  '@lottiefiles/dotlottie-web@0.81.0': {}
 
   '@lucide/svelte@1.61.0(svelte@5.57.3(@typescript-eslint/types@8.72.1))':
     dependencies:
@@ -2014,6 +2077,8 @@ snapshots:
 
   inherits@2.0.4: {}
 
+  inline-style-parser@0.2.7: {}
+
   ip-address@10.7.5: {}
 
   is-extglob@2.1.1: {}
@@ -2167,6 +2232,12 @@ snapshots:
 
   minimist@1.2.8: {}
 
+  mode-watcher@1.1.0(svelte@5.57.3(@typescript-eslint/types@8.72.1)):
+    dependencies:
+      runed: 0.25.0(svelte@5.57.3(@typescript-eslint/types@8.72.1))
+      svelte: 5.57.3(@typescript-eslint/types@8.72.1)
+      svelte-toolbelt: 0.7.1(svelte@5.57.3(@typescript-eslint/types@8.72.1))
+
   mqtt-packet@9.0.2:
     dependencies:
       bl: 6.1.6
@@ -2318,6 +2389,21 @@ snapshots:
       '@rolldown/binding-win32-arm64-msvc': 1.2.15
       '@rolldown/binding-win32-x64-msvc': 1.2.15
 
+  runed@0.23.4(svelte@5.57.3(@typescript-eslint/types@8.72.1)):
+    dependencies:
+      esm-env: 1.2.2
+      svelte: 5.57.3(@typescript-eslint/types@8.72.1)
+
+  runed@0.25.0(svelte@5.57.3(@typescript-eslint/types@8.72.1)):
+    dependencies:
+      esm-env: 1.2.2
+      svelte: 5.57.3(@typescript-eslint/types@8.72.1)
+
+  runed@0.28.0(svelte@5.57.3(@typescript-eslint/types@8.72.1)):
+    dependencies:
+      esm-env: 1.2.2
+      svelte: 5.57.3(@typescript-eslint/types@8.72.1)
+
   sade@1.8.1:
     dependencies:
       mri: 1.2.0
@@ -2353,6 +2439,10 @@ snapshots:
     dependencies:
       safe-buffer: 5.2.1
 
+  style-to-object@1.0.14:
+    dependencies:
+      inline-style-parser: 0.2.7
+
   svelte-check@4.7.7(picomatch@4.0.7)(svelte@5.57.3(@typescript-eslint/types@8.72.1))(typescript@6.0.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
@@ -2376,6 +2466,18 @@ snapshots:
       postcss-selector-parser: 7.1.7
       semver: 7.8.5
     optionalDependencies:
+      svelte: 5.57.3(@typescript-eslint/types@8.72.1)
+
+  svelte-sonner@1.2.1(svelte@5.57.3(@typescript-eslint/types@8.72.1)):
+    dependencies:
+      runed: 0.28.0(svelte@5.57.3(@typescript-eslint/types@8.72.1))
+      svelte: 5.57.3(@typescript-eslint/types@8.72.1)
+
+  svelte-toolbelt@0.7.1(svelte@5.57.3(@typescript-eslint/types@8.72.1)):
+    dependencies:
+      clsx: 2.1.1
+      runed: 0.23.4(svelte@5.57.3(@typescript-eslint/types@8.72.1))
+      style-to-object: 1.0.14
       svelte: 5.57.3(@typescript-eslint/types@8.72.1)
 
   svelte@5.57.3(@typescript-eslint/types@8.72.1):

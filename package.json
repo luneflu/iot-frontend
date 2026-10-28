@@ -25,6 +25,7 @@
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.19.0",
 		"globals": "^17.6.0",
+		"mode-watcher": "^1.1.0",
 		"prettier": "^3.8.3",
 		"prettier-plugin-svelte": "^4.1.0",
 		"svelte": "^5.57.1",
@@ -40,9 +41,11 @@
 		"#lib/*": "./src/lib/*"
 	},
 	"dependencies": {
+		"@lottiefiles/dotlottie-svelte": "^0.10.16",
 		"@lucide/svelte": "^1.61.0",
 		"clsx": "^2.1.1",
 		"mqtt": "^5.16.1",
+		"svelte-sonner": "^1.2.1",
 		"tailwind-merge": "^3.7.0"
 	}
 }
